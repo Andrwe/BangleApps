@@ -4,8 +4,6 @@
 
 print("Checking for alarms...");
 
-clearInterval();
-
 function getCurrentTime() {
   let time = new Date();
   return (
